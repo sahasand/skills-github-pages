@@ -1,4 +1,3 @@
 ---
-title: Welcome to my blog!
-Sandeep Saha
+title: Sandeep Saha
 ---
