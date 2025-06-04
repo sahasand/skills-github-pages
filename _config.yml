@@ -1,0 +1,15 @@
+title: My Stories
+email: your-email@example.com
+description: >-
+  Personal stories and musings.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Exclude unnecessary files
+exclude:
+  - Gemfile
+  - Gemfile.lock
