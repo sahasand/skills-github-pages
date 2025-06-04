@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: My Stories
 ---
 
@@ -11,9 +11,16 @@ title: My Stories
 </header>
 
 <main>
-  <p>Below you'll find my latest posts. Enjoy reading!</p>
+  <ul class="post-list">
+    {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.excerpt }}</p>
+    </li>
+    {% endfor %}
+  </ul>
 </main>
 
 <footer>
-  &copy; 2025
+  &copy; {{ site.time | date: '%Y' }}
 </footer>

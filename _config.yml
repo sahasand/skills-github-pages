@@ -2,14 +2,15 @@ title: My Stories
 email: your-email@example.com
 description: >-
   Personal stories and musings.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+baseurl: ""
+url: ""
 
-# Build settings
 markdown: kramdown
 theme: minima
 
-# Exclude unnecessary files
+plugins:
+  - jekyll-feed
+
 exclude:
   - Gemfile
   - Gemfile.lock

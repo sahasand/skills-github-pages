@@ -22,6 +22,15 @@ main {
   padding: 0 1rem;
 }
 
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list li {
+  margin-bottom: 2rem;
+}
+
 footer {
   text-align: center;
   margin: 2rem 0;

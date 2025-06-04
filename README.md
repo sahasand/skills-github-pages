@@ -1,11 +1,20 @@
 # Personal Blog
 
-This repository contains my personal blog powered by [Jekyll](https://jekyllrb.com/) and hosted on GitHub Pages.
-Stories are written in Markdown inside the `_posts` directory. The site uses the `minima` theme with additional custom styles.
+This is my personal website built with [Jekyll](https://jekyllrb.com/). All stories live in the `_posts` directory and are written in Markdown. The site uses the `minima` theme with a few custom styles.
 
-## Local development
+## Running locally
+
+Install Jekyll and Bundler:
 
 ```bash
+gem install jekyll bundler
+```
+
+Then install dependencies and start the local server:
+
+```bash
+bundle install
 bundle exec jekyll serve
 ```
 
+Your site will be available at `http://localhost:4000`.
